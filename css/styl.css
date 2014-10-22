@@ -5,7 +5,6 @@
 }
 header{
 	background-color: #1F1F1F;
-	/*overflow: hidden;*/
   height: 40px;
 	border-bottom: solid 4px #959595;
 	border-top:  solid 2px #959595;
@@ -112,19 +111,27 @@ header img{
   left: 5px;
 }
 .redes{
-  background-color: #000;;
-  height: 30px;
+  background-color: #DDD;
+  height: 5px;
   text-align: center;
+  
 }
 .rc{
   display: inline-block;
+  margin-right: 20px;
 }
 .rc img{
   width: 40px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+.rc img:hover{
+  transform: translate(10px, 0px);
 }
 /* FOOTER */
 
 footer {
   background-color: #000;
-  height: 77px;
+  height: 95px;
+  border-top: solid 7px #959595;
 }
