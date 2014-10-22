@@ -111,10 +111,13 @@ header img{
 .left {
   left: 5px;
 }
-
+.redes{
+  background-color: white;
+  height: 30px;
+}
 /* FOOTER */
 
 footer {
   background-color: #000;
-  height: 130px;
+  height: 77px;
 }
