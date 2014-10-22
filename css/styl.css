@@ -59,6 +59,16 @@ header img{
 .red{
 	background-color: #CE000D;
 }
+.logo {
+  position: absolute;
+  left: 110px;
+}
+.logo a {
+  color: #fff;
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 2em;
+  text-decoration: none;
+}
 
 /* CONTENT + SLIDER */
 
