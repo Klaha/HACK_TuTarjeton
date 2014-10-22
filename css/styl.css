@@ -29,20 +29,18 @@ header img{
 	vertical-align: top;
 	width: 100px;
 	height: 40px;
-	transition: height .5s;
+	transition: height .5s 0s linear;
   line-height: 36px;
 
 }
 .men_sup li:hover{
 	height: 55px;
-  box-shadow: 1px 1px 10px 1px white inset;
-  border-radius: 0 0 20px 3px;
+  border-radius: 0 0 15px 3px;
 }
 .men_sup li a{
 	text-decoration: none;
 	color: white;
 	font-size: 10px;
-  text-shadow:3px 3px 3px black;
   font-weight: bold;
 }
 .morado{
