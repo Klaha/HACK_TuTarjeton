@@ -5,13 +5,15 @@
 }
 header{
 	background-color: #1F1F1F;
-	overflow: hidden;
+	/*overflow: hidden;*/
+  height: 40px;
 	border-bottom: solid 4px #959595;
 	border-top:  solid 2px #959595;
 }
 header img{
-	float: left;
-	width: 40px;
+	position: absolute;
+  width: 100px;
+  transform: rotate(-7deg);
 }
 .men_sup{
 	text-align: center;
@@ -70,6 +72,15 @@ header img{
   height: 300px;
   background-color: #000;
   margin: 100px auto;
+  position: relative;
+  text-align: center;
+}
+.controls {
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  width: 100%;
 }
 
 /* FOOTER */
