@@ -75,12 +75,30 @@ header img{
   position: relative;
   text-align: center;
 }
-.controls {
-  font-size: 20px;
+.bullets {
+  font-size: 30px;
   position: absolute;
   bottom: 0;
   color: #fff;
   width: 100%;
+}
+.arrow {
+  font-size: 20px;
+  position: absolute;
+  color: #fff;
+  top: 135px;
+  cursor: pointer;
+}
+.arrow a, .bullets a {
+  color: #fff;
+  text-decoration: none;
+}
+.right {
+  right: 5px;
+}
+
+.left {
+  left: 5px;
 }
 
 /* FOOTER */
