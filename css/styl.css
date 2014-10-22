@@ -31,6 +31,7 @@ header img{
 	width: 100px;
 	height: 40px;
 	transition:all .5s;
+  line-height: 36px;
 }
 .men_sup li:hover{
 	height: 55px;
