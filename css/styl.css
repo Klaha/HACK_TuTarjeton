@@ -3,11 +3,52 @@
 	margin:0;
 	padding:0;
 }
+header{
+	background-color: #1F1F1F;
+	overflow: hidden;
+	border-bottom: solid 4px #959595;
+	border-top:  solid 2px #959595;
+}
 header img{
 	float: left;
 	width: 40px;
 }
+.men_sup{
+	text-align: center;
+	margin-right: 30px;
+
+}
 .men_sup li{
+	float: right;
 	display: inline-block;
 	vertical-align: top;
+	width: 100px;
+	height: 40px;
+	transition:all 1s;
+}
+.men_sup li:hover{
+	height: 45px;
+}
+.men_sup li a{
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+}
+.morado{
+	background-color: #383383;
+}
+.azul{
+	background-color: #0480C6;
+}
+.verde{
+	background-color: #74B70F;
+}
+.amari{
+	background-color: #F7B800;
+}
+.nara{
+	background-color: #F26900;
+}
+.red{
+	background-color: #CE000D;
 }
