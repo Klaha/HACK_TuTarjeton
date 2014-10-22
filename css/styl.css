@@ -112,8 +112,15 @@ header img{
   left: 5px;
 }
 .redes{
-  background-color: white;
+  background-color: #000;;
   height: 30px;
+  text-align: center;
+}
+.rc{
+  display: inline-block;
+}
+.rc img{
+  width: 40px;
 }
 /* FOOTER */
 
