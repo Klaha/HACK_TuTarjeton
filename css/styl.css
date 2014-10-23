@@ -34,6 +34,7 @@ header img{
   right: 30px;
 }
 .men_sup li{
+  font-family: 'Droid Sans', sans-serif;
   float: right;
   display: inline-block;
   vertical-align: top;
@@ -92,8 +93,12 @@ header img{
   margin-left: 2em;
 }
 .post-single {
+  font-family: 'Droid Sans', sans-serif;
   width: 750px;
   margin: 100px auto;
+}
+.post-single a {
+  text-decoration: none;
 }
 .post-image {
   float: left;
