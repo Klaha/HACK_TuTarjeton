@@ -80,7 +80,7 @@ header img{
 /* CONTACT */
 
 .contact-form {
-  width: 600px;
+  width: 650px;
   height: 300px;
   margin: 100px auto;
 }
@@ -91,8 +91,7 @@ header img{
 }
 
 .contact-right {
-  margin-left: 35px;
-  width: 265px;
+  width: 300px;
   float: right;
 }
 
@@ -107,7 +106,7 @@ textarea {
   margin-top: 17px;
   background-color: black;
   color: #fff;
-  width: 303px;
+  width: 300px;
 }
 
 label {
