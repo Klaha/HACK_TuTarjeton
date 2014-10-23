@@ -157,6 +157,7 @@ header img{
 .posts .post .descripcion .detalles{
   height:160px;
   margin-left:130px;
+  position: relative;
 }
 .posts .post .descripcion .detalles .autor{
   margin:.5em 0 2em 0;
@@ -164,6 +165,9 @@ header img{
 .posts .post .descripcion .detalles .fecha{
   float:right;
   margin:0 1em 0 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
   }
 .posts .post .descripcion .detalles .tag{
   background:#22bce0;
@@ -171,6 +175,9 @@ header img{
   color:#fff;
   padding:.2em .5em;
   text-decoration:none;
+  bottom: 0;
+  position: absolute;
+  right: 110px;
 }
 .posts .post .descripcion .detalles .titulo{
   color:#444;
@@ -190,6 +197,8 @@ header img{
 
 .titulo a, .autor a {
   text-decoration: none;
+  font-family: "Droid Sans";
+  font-style: normal;
 }
 
 /* QUIENES SOMOS */
