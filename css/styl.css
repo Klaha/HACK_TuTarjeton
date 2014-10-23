@@ -271,9 +271,9 @@ input {
 /* SLIDER */
 
 .slider {
-  width: 960px;
+  width: 705px;
   height: 300px;
-  background-color: #000;
+  background-image: url("../img/tarjetonlogo.png");
   margin: 100px auto;
   position: relative;
   text-align: center;
@@ -293,7 +293,7 @@ input {
   cursor: pointer;
 }
 .arrow a, .bullets a {
-  color: #fff;
+  color: #0982C6;
   text-decoration: none;
 }
 .right {
