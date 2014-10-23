@@ -206,6 +206,7 @@ header img{
 .quienes-somos {
   width: 650px;
   margin: 100px auto;
+  padding-bottom: 205px;
 }
 
 .team {
@@ -255,6 +256,7 @@ header img{
   width: 650px;
   height: 300px;
   margin: 100px auto;
+  padding-bottom: 30px;
 }
 
 .contact-left {
@@ -362,15 +364,20 @@ footer {
 }
 /*PASOS*/
 .pasos{
-  margin: 0 auto;
+  padding-top: 20px;
   text-align: center;
 }
 
 .ps{
   display: inline-block;
+  border: none;
+  padding: 0px;
+}
+.pst{
+  padding: 20px 12px;
 }
 .pst{
   height: 150px;
-  width: 300px;
+  width: 422px;
   color: white;
 }
