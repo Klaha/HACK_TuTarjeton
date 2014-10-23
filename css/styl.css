@@ -298,10 +298,10 @@ input {
 /* SLIDER */
 
 .slider {
-  width: 705px;
-  height: 300px;
+  width: 620px;
+  height: 315px;
   background-image: url("../img/tarjetonlogo.png");
-  margin: 100px auto;
+  margin: 0px auto;
   position: relative;
   text-align: center;
 }
@@ -351,13 +351,26 @@ input {
 /* FOOTER */
 
 .footer {
-  position: absolute;
+  /*position: absolute;*/
   bottom: 0px;
   width: 100%;
 }
-
 footer {
   background-color: #000;
   height: 95px;
   border-top: solid 7px #959595;
+}
+/*PASOS*/
+.pasos{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ps{
+  display: inline-block;
+}
+.pst{
+  height: 150px;
+  width: 300px;
+  color: white;
 }
