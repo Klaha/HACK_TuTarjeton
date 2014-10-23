@@ -1,22 +1,22 @@
 *{
-	border: 0;
-	margin:0;
-	padding:0;
+  border: 0;
+  margin:0;
+  padding:0;
 }
 header{
-	background-color: #1F1F1F;
+  background-color: #1F1F1F;
   height: 40px;
-	border-bottom: solid 4px #959595;
-	border-top:  solid 2px #959595;
+  border-bottom: solid 4px #959595;
+  border-top:  solid 2px #959595;
 }
 header img{
-	position: absolute;
+  position: absolute;
   width: 100px;
   transform: rotate(-7deg);
 }
 .men_sup{
-	text-align: center;
-	margin-right: 30px;
+  text-align: center;
+  margin-right: 30px;
 
 }
 .men_sup ul {
@@ -24,42 +24,39 @@ header img{
   right: 30px;
 }
 .men_sup li{
-	float: right;
-	display: inline-block;
-	vertical-align: top;
-	width: 100px;
-	height: 40px;
-	transition: height .5s 0s linear;
+  float: right;
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  height: 40px;
+  transition:all .5s;
   line-height: 36px;
-
 }
 .men_sup li:hover{
-	height: 55px;
-  border-radius: 0 0 15px 3px;
+  height: 55px;
 }
 .men_sup li a{
-	text-decoration: none;
-	color: white;
-	font-size: 10px;
-  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
 }
 .morado{
-	background-color: #383383;
+  background-color: #383383;
 }
 .azul{
-	background-color: #0480C6;
+  background-color: #0480C6;
 }
 .verde{
-	background-color: #74B70F;
+  background-color: #74B70F;
 }
 .amari{
-	background-color: #F7B800;
+  background-color: #F7B800;
 }
 .nara{
-	background-color: #F26900;
+  background-color: #F26900;
 }
 .red{
-	background-color: #CE000D;
+  background-color: #CE000D;
 }
 .logo {
   position: absolute;
@@ -72,13 +69,62 @@ header img{
   text-decoration: none;
 }
 
-/* CONTENT + SLIDER */
+/* CONTENT */
 
 .content{
   background-color: #DDD;
   height: 500px;
   overflow: hidden;
 }
+
+/* CONTACT */
+
+.contact-form {
+  width: 600px;
+  height: 300px;
+  margin: 100px auto;
+}
+
+.contact-left {
+  width: 300px;
+  float: left;
+}
+
+.contact-right {
+  margin-left: 35px;
+  width: 265px;
+  float: right;
+}
+
+textarea {
+  margin-top: 10px;
+  border: 1px solid #bbb;
+  width: 300px;
+  height: 130px;
+  resize: none;
+}
+.submit {
+  margin-top: 17px;
+  background-color: black;
+  color: #fff;
+  width: 303px;
+}
+
+label {
+  font-family: 'Droid Sans', sans-serif;
+  margin: 10px 0;
+}
+
+input {
+  font-family: 'Droid Sans', sans-serif;
+  font-size: 16px;
+  margin: 10px 0;
+  height: 35px;
+  width: 300px;
+  border: 1px solid #bbb;
+}
+
+/* SLIDER */
 
 .slider {
   width: 960px;
