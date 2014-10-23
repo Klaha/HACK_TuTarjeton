@@ -10,6 +10,9 @@
   font-weight:normal;
   font-style:normal
 }
+body {
+  background-color: #fff;
+}
 header{
   background-color: #1F1F1F;
   height: 40px;
@@ -76,16 +79,11 @@ header img{
   text-decoration: none;
 }
 
-/* CONTENT */
-
-.content{
-  background-color: #DDD;
-  overflow: hidden;
-}
-
 /* BLOG */
 .posts{
-  margin-top: 40px;
+  width: 1000px;
+  margin: 25px auto;
+  text-align: center;
 }
 .post{
   padding: .5em;
@@ -322,6 +320,12 @@ input {
   transform: translate(10px, 0px);
 }
 /* FOOTER */
+
+.footer {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
 
 footer {
   background-color: #000;
