@@ -79,7 +79,8 @@ header img{
 /* BLOG */
 
 .post {
-  width: 700px;
+  font-family: 'Droid Sans', sans-serif;
+  width: 650px;
   margin: 100px auto;
 }
 
@@ -98,7 +99,55 @@ hr.style-one {
     margin: 25px 0; 
 }
 
-/* CONTACT */
+/* QUIENES SOMOS */
+
+.quienes-somos {
+  width: 650px;
+  margin: 100px auto;
+}
+
+.team {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.team img {
+  max-width: 100%;
+}
+
+.team-info {
+  font-family: 'Droid Sans', sans-serif;
+  text-align: center;
+  margin-top: 25px;
+}
+
+/* DISTRIBUIDORES */
+
+.distribuidores {
+  font-family: 'Droid Sans', sans-serif;
+  width: 650px;
+  margin: 100px auto;
+}
+
+.distribuidores h1 {
+  text-align: center;
+}
+
+.dist-left, .dist-right {
+  text-align: justify;
+  width: 300px;
+  margin: 25px 0;
+}
+
+.dist-left {
+  float: left;
+}
+
+.dist-right {
+  float: right;
+}
+
+/* CONTACTO */
 
 .contact-form {
   width: 650px;
