@@ -356,11 +356,13 @@ input {
   /*position: absolute;*/
   bottom: 0px;
   width: 100%;
+  clear: both;
 }
 footer {
   background-color: #000;
   height: 95px;
   border-top: solid 7px #959595;
+
 }
 /*PASOS*/
 .pasos{
