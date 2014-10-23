@@ -254,6 +254,7 @@ header img{
 
 .dist-left {
   float: left;
+  margin-bottom: 120px;
 }
 
 .dist-right {
