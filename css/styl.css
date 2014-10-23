@@ -95,6 +95,10 @@ header img{
   width: 750px;
   margin: 100px auto;
 }
+.post-image {
+  float: left;
+  margin-right: 20px;
+}
 .post-body {
   margin-top: 25px;
 }
@@ -177,6 +181,10 @@ header img{
   height:160px;
   vertical-align:top;
   width:120px;
+}
+
+.titulo a, .autor a {
+  text-decoration: none;
 }
 
 /* QUIENES SOMOS */
