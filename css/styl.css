@@ -91,6 +91,13 @@ header img{
   display: inline-block;
   margin-left: 2em;
 }
+.post-single {
+  width: 750px;
+  margin: 100px auto;
+}
+.post-body {
+  margin-top: 25px;
+}
 .posts .post{
   background: #fff;
   border-radius: 0 0 .5em .5em;
