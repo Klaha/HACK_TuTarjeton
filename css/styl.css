@@ -12,11 +12,11 @@
 }
 @font-face {
   font-family: 'tpm';
-  src:url('../fonts/new/icomoon.eot?pfsucy');
-  src:url('../fonts/new/icomoon.eot?#iefixpfsucy') format('embedded-opentype'),
-    url('../fonts/new/icomoon.woff?pfsucy') format('woff'),
-    url('../fonts/new/icomoon.ttf?pfsucy') format('truetype'),
-    url('../fonts/new/icomoon.svg?pfsucy#icomoon') format('svg');
+  src:url('../fonts/new/gongn___-webfont.eot?pfsucy');
+  src:url('../fonts/new/gongn___-webfont.eot?#iefixpfsucy') format('embedded-opentype'),
+    url('../fonts/new/gongn___-webfont.woff?pfsucy') format('woff'),
+    url('../fonts/new/gongn___-webfont.ttf?pfsucy') format('truetype'),
+    url('../fonts/new/gongn___-webfont.svg?pfsucy#gongn___-webfont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -46,6 +46,7 @@ header img{
 .men_sup li{
   font-family: 'Droid Sans', sans-serif;
   float: right;
+  font-weight: bold;
   display: inline-block;
   vertical-align: top;
   width: 100px;
@@ -59,7 +60,7 @@ header img{
 .men_sup li a{
   text-decoration: none;
   color: white;
-  font-size: 11px;
+  font-size: 12px;
 }
 .morado{
   background-color: #383383;
@@ -368,7 +369,7 @@ input {
   bottom: 0px;
   width: 100%;
   height: auto;
-  color: white;
+  color: #9C9C9C;
   clear: both;
 }
 .footer p{
@@ -377,7 +378,7 @@ input {
 }
 .footer a{
   text-decoration: none;
-  color: white;
+  color: #9C9C9C;
 }
 .cocta{
   margin-left: 90px;
@@ -397,36 +398,42 @@ footer {
   padding-top: 20px;
 }
 /*PASOS*/
-.pasos .ps .pst{
-  font-family: "tpm";
-}
 .pasos{
-  padding-top: 20px;
-  text-align: center;
-  margin-bottom: 68px;
-}
-
-.ps{
-  display: inline-block;
-  border: none;
-  padding: 0px;
-  vertical-align: middle;
-}
-.pst{
-  padding: 20px 12px;
-}
-.sig:after{
-  content: "\e611";
-}
-.sig{
-  margin-left: 369px;
-  margin-top: -11px;
-  font-size: 3em;
-  color: black;
-}
-.pst{
-  height: 50px;
-  width: 400px;
+  font-family: "tpm", arial;
+  width: 980px;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 50px !important;
+  margin-bottom: 100px !important;
   color: white;
-  border-radius: 10px 30px;
+  text-align: center;
+  line-height: 140px;
+}
+.pasos a{
+  text-decoration: none;
+  color: white;
+}
+.box1, .box2, .box3{
+  width: 300px;
+  height: 143px;
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 30px;
+  box-shadow: 2px 2px 10px 2px black;
+  vertical-align: top;
+}
+.box3{
+  margin-right: 0!important;
+}
+.box1:hover{
+  background-color: #F8C11E;
+}
+.box2:hover{
+  background-color: #8BDD10;
+}
+.box3:hover{
+  background-color: #0494E6;
+}
+.box1:hover, .box2:hover, .box3:hover a{
+  text-shadow:2px 2px 3px black;
 }
