@@ -217,7 +217,7 @@ header img{
 .quienes-somos {
   width: 650px;
   margin: 100px auto;
-  padding-bottom: 205px;
+  padding-bottom: 167px;
 }
 
 .team {
@@ -255,7 +255,7 @@ header img{
 
 .dist-left {
   float: left;
-  margin-bottom: 120px;
+  margin-bottom: 82px;
 }
 
 .dist-right {
@@ -267,8 +267,7 @@ header img{
 .contact-form {
   width: 650px;
   height: 300px;
-  margin: 100px auto;
-  padding-bottom: 30px;
+  margin: 96px auto;
 }
 
 .contact-left {
