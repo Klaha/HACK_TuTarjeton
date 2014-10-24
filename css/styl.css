@@ -30,17 +30,22 @@ header{
   border-top:  solid 2px #959595;
 }
 .logo a{
-  font-family: "tpm", arial;
+  font-family: 'tpm', arial;
+  font-size: 30px;
+  line-height: 50px;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
 }
 header img{
   position: absolute;
   width: 100px;
   transform: rotate(-7deg);
 }
+/*MENU*/
 .men_sup{
   text-align: center;
   margin-right: 30px;
-
 }
 .men_sup ul {
   position: absolute;
@@ -57,43 +62,41 @@ header img{
   transition:all .5s;
   line-height: 36px;
 }
-.men_sup li:hover{
-  height: 55px;
+.morado:hover .red{
+  background-color: #959595;
 }
 .men_sup li a{
   text-decoration: none;
   color: white;
   font-size: 12px;
 }
-.morado{
+
+ul:hover li {
+  background-color: gray;
+}
+
+.morado, ul:hover li.morado:hover{
   background-color: #383383;
 }
-.azul{
+.azul, ul:hover li.azul:hover{
   background-color: #0480C6;
 }
-.verde{
+.verde, ul:hover li.verde:hover{
   background-color: #74B70F;
 }
-.amari{
+.amari, ul:hover li.amari:hover{
   background-color: #F7B800;
 }
-.nara{
+.nara, ul:hover li.nara:hover{
   background-color: #F26900;
 }
-.red{
+.red, ul:hover li.red:hover{
   background-color: #CE000D;
 }
 .logo {
   position: absolute;
   left: 110px;
 }
-.logo a {
-  color: #fff;
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 2em;
-  text-decoration: none;
-}
-
 /* BLOG */
 .posts{
   width: 1000px;
