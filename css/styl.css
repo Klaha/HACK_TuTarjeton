@@ -367,13 +367,21 @@ input {
   /*position: absolute;*/
   bottom: 0px;
   width: 100%;
+  height: auto;
+  color: white;
   clear: both;
+}
+.footer p{
+  font-size: 12px;
 }
 footer {
   background-color: #000;
   height: 95px;
   border-top: solid 7px #959595;
-
+  height: auto;
+}
+.disp{
+  display: inline-block;
 }
 /*PASOS*/
 .pasos .ps .pst{
