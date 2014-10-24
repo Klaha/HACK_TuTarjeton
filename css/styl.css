@@ -29,6 +29,9 @@ header{
   border-bottom: solid 4px #959595;
   border-top:  solid 2px #959595;
 }
+.logo a{
+  font-family: "tpm", arial;
+}
 header img{
   position: absolute;
   width: 100px;
