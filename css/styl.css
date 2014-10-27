@@ -269,7 +269,11 @@ ul:hover li {
 }
 
 /* CONTACTO */
-
+.tcontacto{
+  text-align: center;
+  margin-top: 40px;
+  font-family: "tpm", arial;
+}
 .contact-form {
   width: 650px;
   height: 300px;
@@ -386,19 +390,19 @@ input {
   color: #9C9C9C;
 }
 .cocta{
-  margin-left: 90px;
+
 }
 .tarje{
-  margin-left: 70px;
+  margin-top: 50px;
 }
 footer {
   background-color: #000;
   height: 95px;
   border-top: solid 7px #959595;
   height: auto;
+  text-align: center;
 }
 .disp{
-  display: inline-block;
   padding-bottom: 15px;
   padding-top: 20px;
 }
